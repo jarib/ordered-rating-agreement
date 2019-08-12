@@ -1,0 +1,32 @@
+{
+    "name": "ordered-rating-agreement",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "tdd": "jest --watch"
+    },
+    "keywords": [
+        "agreement",
+        "dispersion",
+        "statistics",
+        "surveys",
+        "van der eijk",
+        "ordinal",
+        "ordered rating scales"
+    ],
+    "author": "jari@vg.no",
+    "license": "MIT",
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged && npm run test"
+        }
+    },
+    "devDependencies": {
+        "husky": "^3.0.3",
+        "jest": "^24.8.0",
+        "prettier": "^1.18.2",
+        "pretty-quick": "^1.11.1"
+    }
+}
